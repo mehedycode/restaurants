@@ -1,0 +1,126 @@
+/* small Devices */
+
+@media screen and (max-width:576px) {
+
+/* hero section */
+
+html , body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+#hero_container {
+  height: 80%;
+}
+ 
+  .hero_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #hero_container .hero_section .para {
+    font-size: 12px;
+    line-height: 20px;
+    padding-bottom: 20px;
+    width: 80%;
+    margin: 0 auto;
+    }
+    
+
+    #hero_container .hero_section h1 {
+      font-size: 25px;
+      width: 400px;
+      font-weight: 700;
+      line-height: normal;
+      margin: 0 auto;
+      padding: 15px;
+      }
+
+      .btn {
+        padding: 15px 20px 15px 20px;
+        border-radius: 8px;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: normal;
+        
+      }
+
+      /* card section */
+
+      .card_container{
+        flex-direction: column;
+       gap: 80px;
+      }
+
+      .text_area {
+  
+        padding-top:60px;
+        
+        }
+      
+        .card_box {
+          width: 90%;
+          margin: 0 auto;
+        }
+        .card_box .text_area  h2 {
+         
+          font-size: 30px;
+          line-height: normal;
+
+         }
+    
+         .sub-foot {
+         flex-direction: column;
+          gap: 40px;
+          margin-top: 60px;
+          
+        }
+      
+        .sub_foot-img img {
+          width:90%;
+          
+          
+        }
+
+        .sub_foot-img{
+          display: flex;
+          justify-content: center;
+ 
+        }
+
+        .sub_fott_textarea p {
+      
+          font-size: 14px;
+          
+          line-height: normal;
+          opacity: 0.6;
+          }
+
+          .sub_fott_textarea h2 {
+          
+          font-size: 30px;
+          
+          line-height: normal;
+         width: 450px;
+          margin-bottom: 20px;
+          
+          }
+
+          footer {
+            height: 400px;
+            margin-top: 60px;
+           }
+
+           .sub_fott_textarea span {
+          
+            font-size: 20px;
+            font-weight: 600;
+            line-height: normal;
+            
+            }
+
+            .sub_fott_textarea{
+              gap: 20px;
+            }
+}
